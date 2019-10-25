@@ -26,7 +26,7 @@ router.post('/multiply', function(req, res, next) {
   }
 });
 
-router.get('/Fibonacci', function(req, res, next) {
+router.get('/fibonacci', function(req, res, next) {
   const input = req.query.limit;
   if (isNaN(input)) {
     const error = "Expected limit to be a number.";
